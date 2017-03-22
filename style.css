@@ -23,16 +23,14 @@ body {
   position: absolute;
   top: 50%;
   margin-top: -80px; }
-
-.slogan h1 {
-  margin-top: 0;
-  color: white;
-  font-weight: 300;
-  font-size: 30px; }
-
-.slogan p {
-  color: white;
-  font-size: 10px; }
+  .slogan h1 {
+    margin-top: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 30px; }
+  .slogan p {
+    color: white;
+    font-size: 10px; }
 
 .vertical {
   transform: rotate(270deg);
@@ -40,14 +38,13 @@ body {
   width: 150px;
   position: absolute;
   top: 43%;
-  margin-left: -30px; }
-
-.vertical h2 {
-  margin: 0 auto;
-  color: white;
-  text-transform: uppercase;
-  font-size: 10px;
-  font-weight: 300; }
+  margin-left: -60px; }
+  .vertical h6 {
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 300; }
 
 .phone {
   position: absolute;
@@ -188,52 +185,45 @@ body {
   min-height: 460px;
   padding: 0px;
   margin: 5% auto; }
-
-.gallery .foto {
-  float: left;
-  width: 25%;
-  height: 230px; }
-
-.gallery .bigger {
-  width: 50%;
-  background-image: url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/Z60BJERD3G.jpg);
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.gallery .pink {
-  background-color: #f5989d; }
-
-.gallery .grey {
-  background-color: #615f7d; }
-
-.gallery .picture {
-  background-image: url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/S1MKD9M17Q.jpg);
-  background-position: center;
-  background-size: cover; }
-
-.gallery .purple {
-  background-color: #bd8cbf; }
-
-.gallery .green {
-  background-color: #82ca9c; }
-
-.gallery .picture2 {
-  background-image: url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/FI6C6P395L.jpg);
-  background-position: center;
-  background-size: cover; }
-
-.gallery h2 {
-  color: white;
-  font-weight: 300;
-  font-size: 23px;
-  margin: 18px; }
-
-.gallery p {
-  color: white;
-  font-size: 15px;
-  font-weight: 300;
-  margin: 18px; }
+  .gallery .foto {
+    float: left;
+    width: 25%;
+    height: 230px;
+    transition: opacity 0.2s ease-in-out; }
+    .gallery .foto:hover {
+      opacity: 0.7; }
+  .gallery .bigger {
+    width: 50%;
+    background-image: url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/Z60BJERD3G.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .gallery .pink {
+    background-color: #f5989d; }
+  .gallery .grey {
+    background-color: #615f7d; }
+  .gallery .picture {
+    background-image: url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/S1MKD9M17Q.jpg);
+    background-position: center;
+    background-size: cover; }
+  .gallery .purple {
+    background-color: #bd8cbf; }
+  .gallery .green {
+    background-color: #82ca9c; }
+  .gallery .picture2 {
+    background-image: url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/FI6C6P395L.jpg);
+    background-position: center;
+    background-size: cover; }
+  .gallery h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 23px;
+    margin: 18px; }
+  .gallery p {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 18px; }
 
 p.last {
   font-weight: bold; }
@@ -266,30 +256,26 @@ p.last {
   position: absolute;
   left: 67%;
   bottom: 21%; }
-
-.motto h2 {
-  color: white;
-  font-size: 30px;
-  font-weight: 300; }
-
-.motto p {
-  color: white;
-  font-size: 10px;
-  font-weight: 300; }
+  .motto h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 300; }
+  .motto p {
+    color: white;
+    font-size: 10px;
+    font-weight: 300; }
 
 .reasons {
   background-color: #82ca9c;
   padding: 30px 0; }
-
-.reasons h2 {
-  font-weight: 300;
-  color: white;
-  padding-left: 7px; }
-
-.reasons p {
-  color: white;
-  font-size: 13px;
-  font-weight: 300px; }
+  .reasons h2 {
+    font-weight: 300;
+    color: white;
+    padding-left: 7px; }
+  .reasons p {
+    color: white;
+    font-size: 13px;
+    font-weight: 300px; }
 
 .shopping {
   background-color: #f6f7fa;
@@ -306,12 +292,11 @@ p.last {
   font-size: 10px;
   line-height: 25px; }
 
-.buy p {
-  margin: 10px 0; }
-
 .buy {
   width: 450px;
   padding: 20px; }
+  .buy p {
+    margin: 10px 0; }
 
 .solo {
   font-size: 23px; }
@@ -364,8 +349,7 @@ footer {
 
 #basic-addon2 {
   background-color: #82ca9c; }
-
-#basic-addon2 i {
-  color: white; }
+  #basic-addon2 i {
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
