@@ -1,0 +1,23 @@
+{
+  "name": "kodilla-project",
+  "version": "1.0.0",
+  "description": "projekt kodillowy",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "scripts": {
+    "test": "kodilla-test"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Agata",
+  "license": "ISC"
+}
